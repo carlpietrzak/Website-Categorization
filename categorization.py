@@ -5,7 +5,9 @@
 #
 # This program uses a CSV file named 'Domain_Cat' as an input
 # and outputs into a new CSV file, 'Domain_Cat_out'
-# The first column contains a list of URLs
+# The first column in the input must contain a list of URLs
+# The output file replicates the first column, then adds returned descriptors 
+# to each subsequent column.
 
 import requests, csv
 from base64 import urlsafe_b64encode
