@@ -3,7 +3,7 @@
 # Carl Pietrzak
 # 9-22-2020
 #
-# This simple program uses a CSV file named 'Domain_Cat' as an input
+# This program uses a CSV file named 'Domain_Cat' as an input
 # and outputs into a new CSV file, 'Domain_Cat_out'
 # The first column contains a list of URLs
 
